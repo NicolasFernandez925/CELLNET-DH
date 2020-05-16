@@ -1,0 +1,123 @@
+.col-4.offset-1.compras.card {
+    padding: 25px;
+   
+}
+
+.span-orden {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button.btn-productos.collapsed {
+    border: none;
+    color: crimson;
+    font-size: 17px;
+    background: transparent;
+    font-weight: 600;
+}
+
+.card.card-body {
+    text-align: center;
+}
+
+.col-12.col-md-4.offset-md-1.compras.card {
+    padding: 30px;
+}
+
+.menu-pan a, span {
+    color: #252525;
+    font-size: 17px;
+    font-weight: 500;
+}
+span.deb-cred {
+    color: #bdbdbd;
+    font-size: 13px;
+}
+a.factura {
+
+    color: rgb(46, 46, 46);
+    float: right;
+    font-weight: 600;
+}
+
+button.btn-productos {
+    border: none;
+    color: crimson;
+    font-size: 17px;
+    background: transparent;
+    font-weight: 600;
+}
+
+button.btn-agregar {
+    border: none;
+    width: 100%;
+    margin: 5px 0px 80px 0px;
+    padding: 10px;
+    background: crimson;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+   
+}
+
+
+button.btn-agregar:hover {
+    
+    background: rgb(168, 39, 67); 
+}
+
+button.btn-agregar:disabled{
+    
+    background: rgb(150, 79, 94);
+    cursor: not-allowed;
+}
+
+
+/**
+ * The CSS shown here will not be introduced in the Quickstart guide, but shows
+ * how you can use CSS to style your Element's container.
+ */
+ .StripeElement {
+    box-sizing: border-box;
+  
+    height: 40px;
+  
+    padding: 10px 12px;
+  
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+  
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+  }
+  
+  .StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+  }
+  
+  .StripeElement--invalid {
+    border-color: #fa755a;
+  }
+  
+  .StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+
+
+
+  }
+
+  /*Flecha para hacer la pagina hacia arriba*/
+.ir-arriba{
+	display:none;
+	background-repeat:no-repeat;
+	font-size:20px;
+	color:black;
+	cursor:pointer;
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	z-index:2;
+  }

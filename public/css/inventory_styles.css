@@ -1,0 +1,116 @@
+img.img-product-inventari {
+    height: 90px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    min-height: 100px;
+}
+
+.form-inventario label{
+
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.botones {
+    width: 100%;
+    text-align: center;
+}
+
+.menu-pan {
+    padding: 35px 0px;
+    font-size: 15px;
+}
+
+p.text-danger.error-msj {
+    margin: 0;
+}
+button.btn-agregar {
+    color: white;
+    padding: 10px;
+    width: 35%;
+    margin-top: 30px;
+    background: crimson;
+    font-weight: 600;
+    border: none;
+    font-size: 16px;
+}
+.form-control, select#rol {
+   
+    font-size: 17px;
+  
+}
+.alert.alert-success.alert-dismissible.fade.show {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+}
+.agregar-producto {
+    float: right;
+    margin-bottom: 40px;
+}
+
+a.agregar {
+    font-size: 18px;
+    padding: 10px;
+    background: rgb(214, 214, 214);
+    color: rgb(65, 65, 65);
+}
+a.editar {
+    color: #28af0f;
+}
+
+.menu-pan a{
+    color:black;
+}
+.menu-pan a:hover{
+   font-weight:bold;
+   
+}
+
+button.eliminar {
+
+    border:none;
+    color:red;
+    background:transparent;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    font-size: 18px;
+}
+.table .thead-dark th {
+    color: rgb(78, 78, 78);
+    background-color: rgb(230, 230, 230);;
+    border-color: #ffffff;
+}
+.alert.alert-danger.msj-errors {
+    width: 50%;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+i.fas.fa-pencil-alt,i.fas.fa-trash {
+    font-size: 22px;
+}
+i.fas.fa-plus.mr-3 {
+    font-size: 19px;
+}
+
+/*Flecha para hacer la pagina hacia arriba*/
+.ir-arriba{
+	display:none;
+	background-repeat:no-repeat;
+	font-size:20px;
+	color:black;
+	cursor:pointer;
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	z-index:2;
+  }
