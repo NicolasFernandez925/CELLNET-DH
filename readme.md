@@ -1,3 +1,12 @@
+
+Proyecto integrador realizado en Digital House:
+Desarrollo de una aplicación web e-commerce de celulares integrando pasarella de pagos con Mercado Pago. Utilizando HTML para la estructura, CSS para el diseño y Javascript para validaciones del lado del cliente.
+El diseño y desarrollo del FrontEnd toma las buenas prácticas de hacer sitios responsive para cualquier dispositivo.
+El Backend fue desarrollado en PHP, con Laravel como framework de apoyo utilizando buenas prácticas MVC.
+Diseñamos y utilizamos un UML para el armado y organización de la base de datos relacional con la que luego interactuamos a través de MySQL.
+Todo el proyecto se desarrolló siguiendo los lineamientos de Metodologías Ágiles (Scrum), y se gestionó utilizando Git para control de versiones, en un repositorio privado de trabajo colaborativo y organizado.
+
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
